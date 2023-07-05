@@ -94,54 +94,6 @@ Finished my day with some tests on both Java and Python.
 
    *Tests*
 
-   - Perform arithmetics in Java
-    ``` Java
-   public class Rectangle {
-    double width;
-    double height;
-    Rectangle (){}
-    Rectangle(double width, double height){
-        this.width = width;
-        this.height = height;
-    }
-    double perimeter (){
-        return (width + height) * 2;
-    }
-    double square(){
-        return width * height;
-    }
-    void setLen(double len , double hei){
-        width = len;
-        height = hei;
-    }
-    public static void main(String []args){
-        Rectangle one = new Rectangle(10.0,12.0);
+   - [Perform arithmetics in Java](./Rectangle.java)
 
-        one.setLen(4.0, 4.0);
-        System.out.println("Perimeter: " + one.perimeter());
-        System.out.println("Square: " + one.square());
-    }
-}
-``` 
-
-- Python Program showing inheritance
-```py
-    class Person:
-      def __init__ (self, name):
-        # self allows to attach parameter to the class
-          self.name = name
-      def naming(self):
-          fing = f"This student is called {self.name}"
-          return fing 
-   class Grades(Person):
-       def __init__(self, name, grade):
-           super().__init__(name)
-           self.grade = grade
-        
-       def show(self):
-            final = f"{self.name} scored {self.grade}"
-            return final
-  p = Grades('Jussie','0')
- 
-  print(p.naming())
-```
+   - [Python Program showing inheritance](./inherit.py)

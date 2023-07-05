@@ -44,13 +44,5 @@ Did some tasks on HackerRank gaining my first start for completing two challenge
 The challlenges involved various object oriented concepts in python, which spearheaded my skills in Python programming following teh previous 30DayOfPython by Asabeneh.
 
 Finished my Day 1 with a short in Java to print hello world.
-
-```Java 
- public class Hello{
-    public static void main(String []args){
-        System.out.print("Hello"); // With no new line 
-        System.out.println("Hello"); // With a new line
-    }
- }
-```
+[Hello Code](./Hello.java)
 

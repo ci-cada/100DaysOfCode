@@ -88,151 +88,25 @@ They are as follows, they are used as follows;
 #### Loopings 
 
 With less explanations and more practicals I will show how the statements work with code to perform certain operations followinng with their synatax.
-*The while* 
-```Java
-/** While (expression){
- * statement
- * }
- */
-impory java.util.*;
-public class WhileLopp(){
-    public static void main(String[] args){
+[The while](./findSum.java) 
 
-        int a, sum = 0;
-        while (a < 5>){
-            try{ 
-                Scanner input = new Scanner(System.in);
-                System.out.printf("Enter the value: ");
-                a = input.nextInt();
-                sum += a 
-                a++;
-
-        }catch(Exception e){
-        }
-    }
-    System.out.printf("The sum of values are: %d", sum );
-}
-```
 *The Do while*
 This is similar to the while statement but it executes the expression at the bottom of the code.
-```Java
-/** Do {
- *  statements
- * }while(expression)
- */
-impory java.util.*;
-public class WhileLopp(){
-    public static void main(String[] args){
+[Do While Demo](./DoWhile.java)
 
-        int a, sum = 0;
-        do {
-            try{ 
-                Scanner input = new Scanner(System.in);
-                System.out.printf("Enter the value: ");
-                a = input.nextInt();
-                sum += a 
-                a++;
-
-        }catch(Exception e){}
-        }while (a < 5>)
-    System.out.printf("The sum of values are: %d", sum );
-}
-```
 *The for Statement*
-```Java
-/** for(initialization; termination; increment){
- * statement 
- * }
- */
-public class ForDemo {
-public static void main(String[] args) {
-        int[] arrayOfInts = { 32, 87, 3, 589, 12, 1076,2000, 8, 622, 127 };
-        for (int i = 0; i < arrayOfInts.length; i++) {
-        System.out.print(arrayOfInts[i] + " ");
-        }
-        System.out.println();
-    }
-}
-```
+
+[For Demo](./ForDemo.java)
+
 *if/ else statements*
 Enables program to selectivelt execute statements if a certain creteria is met
-```Java 
-/**
- * if (expression){
- * statement(s)
- * }
- * 
- * if (expression){
- * statement(s)
- * }else {
- * statement(s)
- * }
- * 
- * if (statement){
- * statement(s)
- * }else if(statement){
- * statement(s)
- * }else{
- * statement(s)
- * }
- */
-public class IfElseDemo {
-        public static void main(String[] args) {
-            int testscore = 76;
-            char grade;
-            if (testscore >= 90) {
-                grade = 'A';
-            } else if (testscore >= 80){ 
-                grade = 'B';
-            } else if (testscore >= 70){ 
-                grade = 'C';
-            }else if (testscore >= 60){ 
-                grade = 'D';
-            } else {
-                grade = 'F';
-            }
-            System.out.println("Grade = " + grade);
-        }
-}
-```
+[If Else Demo](./IfElseDemo.java)
+
 *The Switch Statement*
 This performs statements based on an interger expression or a string 
 This short programm will show the use while displaying the month of the number stated
-```Java
-/**
- * switch (expression){
- * case expression:
- * statement(s)
- * break;
- * 
- * case expression:
- * statement(s)
- * break;
- * defaut: 
- * statement(s)
- * break;}
- */
-public class SwitchDemo {
-        public static void main(String[] args) {
-        int month = 8;
-        switch (month) {
-            case 1: System.out.println("January"); break;
-            case 2: System.out.println("February"); break;
-            case 3: System.out.println("March"); break;
-            case 4: System.out.println("April"); break;
-            case 5: System.out.println("May"); break;
-            case 6: System.out.println("June"); break;
-            case 7: System.out.println("July"); break;
-            case 8: System.out.println("August"); break;
-            case 9: System.out.println("September"); break;
-            case 10: System.out.println("October"); break;
-            case 11: System.out.println("November"); break;
-            case 12: System.out.println("December"); break;
-            default: System.out.println("Hey, that's not a valid month!"); break;
-}
-}
-}
-```
+[Switch Demo](./SwitchDemo.java)
+
 *Exception Handling Statements*
 To start of an exception is  a mechanism that enables programs to report and handle erros without making the program misbehave. An _exception handler_ being a block that handles a particular type of error attempting to recover from the error, if unrecoverble the handler provides an exit from the program
 
@@ -260,32 +134,7 @@ Create a program to display the number of days in a given month of a given year.
 The month should be represented by a number which should be entered by the user.
 If the month is February on a leap year the output for instance should be
 “number of days=29”
-```Java
-import java.util.*;
-public class Days{
-    public static void main(String []args){
-        Scanner input = new Scanner(System.in);
-        int []year;
-        int leap[] = {0,31,29,31,30,31,30,31,31,30,31,30,31};
-        int normal[] = {0,31,28,31,30,31,30,31,31,30,31,30,31};
-        System.out.print("Enter the  year: ");
-        int selection = input.nextInt();
-        if(selection % 4 == 0){
-            year = leap;
-        }else{
-            year = normal
-        }
-        Sytem.out.print("Enter the month number: ");
-        int number = input.nextInt();
-        for(int i = 1 ; i < year.length; i++){
-            if(i == number){
-                System.out.print("Number of days = " + year[i]);
-            }
-        }
-    }
-
-}
-```
+[Response](./Days.java)
 
 ## Python Programming
 

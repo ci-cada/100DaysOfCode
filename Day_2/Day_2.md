@@ -7,21 +7,8 @@ Still learning theories of Java. Before writting code, Learning how an applicati
  - Creating a source file - With the text written in Java. This is usually written using atext editor of ones choice ie. VSCode, Intelij Idea e.t.c.
  - Compiling - The source file is later compiled into a byte code file using the Java compiler 
  - Runing the bytecode - The java interpreter in your machine leater runs the bytecodes instructions to those which machines can understand making them perform the tasks given.
-#### Sample Code 
-```Java 
-public class Rectangle{
-    int len, wid;
-    Rectangle(){}
-    Rectangle(int length, int width){
-        this.len = length;
-        this.wid = width;
-    }
-    public static void main(String []args){
-        Rectangle one = new Rectangle(20,30);
-        System.out.println("The dimensions [length x Width] are " + one.len + "and" + one.wid);
-    }
-}
-```
+[Sample Code](./Rectangle.java) 
+
 #### ERRORS
 Having gone through a couple of errors while running my code. I took time t learn about them and why they are caused. Some of the most common errors in Java are; 
  - Compilation
@@ -96,22 +83,7 @@ These are these special keywords that control the availability of classes, metho
   ### Abstract 
   This is applicable to classes and methods and they must be extended but not instantiated, being an object can not be created from it. They have  implementatuon in the subclass of the class defined or the defined subclass must be declared abstract 
   #### Tasks 
-  - Application to display name and id  
-    ```Java
-  import java.util.*;
-  Public class MyDetails{
-    public static void main(String []args){
-    Scanner input = new Scanner(System.in);
-    String name;
-    int ID; 
-    System.out.print("Enter your Name: ");
-    name = input.next();
-    System.out.print("Enter your ID: ");
-    ID  = input.nextInt();
-    System.out.print("Welcome " + name +" of ID " + ID);
-    }
-  }
-  ```
+  - [Application to display name and id](./MyDetails.java) 
 
 ## Python Programming 
 
