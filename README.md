@@ -22,5 +22,9 @@ Looking forwad to achieving my goal and dream of being a software engineering.
 * [Day 9](./Day_9)
 * [Day 10](./Day_10)
 * [Day 11](./Day_11)
+* [Day 12](./Day_12)
+* [Day 13](./Day_13)
+
+```* [Junk Files](./Junk_files)
 
 
