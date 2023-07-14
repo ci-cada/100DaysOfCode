@@ -11,6 +11,7 @@ Not only will I learn Java but also do some other projects in these coming forwa
 Looking forwad to achieving my goal and dream of being a software engineering.
 
 ## Topics 
+
 * [Day 1](./Day_1)
 * [Day 2](./Day_2)
 * [Day 3](./Day_3)
@@ -25,5 +26,9 @@ Looking forwad to achieving my goal and dream of being a software engineering.
 * [Day 12](./Day_12)
 * [Day 13](./Day_13)
 * [Junk Files](./Junk_files)
+* [Day 15](./Day_15)
+* [Day 16](./Day_16)
+* [Day 17](./Day_17)
+* [Day 18](./Day_18)
 
 
