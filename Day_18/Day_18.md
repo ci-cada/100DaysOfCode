@@ -6,7 +6,7 @@
 
 #### Queues
 
-This is defined as an orderd list which enables insert operations to be performed at one end called _REAR_ and delete operations to e performed at another end called _FRONT_
+This is defined as an orderd list which enables insert operations to be performed at one end called _REAR_ and delete operations to be performed at another end called _FRONT_
 
 This is refferes to as Frist in First Out list 
 
