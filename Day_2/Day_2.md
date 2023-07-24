@@ -1,4 +1,4 @@
-by# Day 2 of 100 Days of Code
+hi Drby# Day 2 of 100 Days of Code
 
 ## Java Programming 
 
@@ -68,8 +68,7 @@ These are these special keywords that control the availability of classes, metho
   Also known as access modifier since it allows one to control the visibility and access to variable and methods inside your class.
   Applicable to methods and variables. it makes them visible/ accessible only within the class defined 
 
-    ```Java
-  private double num;
+    ```Javaprivate double num;
 ```
   ### Protected 
   Applicable to methods and variables. Makes the member only visible in the package defined and to subclasses of the class defined in any other package.
