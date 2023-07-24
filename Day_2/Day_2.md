@@ -18,7 +18,7 @@ Having gone through a couple of errors while running my code. I took time t lear
 With the following being their primary causes,
  - Compilation Errors are caused by, Method invocation error, leaving out brackets in methods not needing parameters, condition statements, leaving or adding extra braces and leaving semicolons or adding where unneccesary.
  - Linking errors are caused when the programmer misses a spelling or that the programms are missing some import statements or specification of the wrong packages.
- - RunTime errors appear when the programm is running for example when the programmer  tries to use an array index out of bounds, these are cause the program to stop 
+ - RunTime errors appear when the programm is running for example when the programmer  tries to use an array index out of bounds, these cause the program to stop 
 
 #### Statements
 In this section we will cover these statements the import and package statement;
@@ -36,7 +36,7 @@ In java there are the following packages;
 *Example*
 ```Java
 import java.io.*; // imports all 
-import java.io.BufferReader; // Specifys 
+import java.io.BufferReader; // Specifies
 ```
 
 #### Other Need to Know 
@@ -55,7 +55,7 @@ These are these special keywords that control the availability of classes, metho
   - Abstract 
 
   ### Static
-  Used mainly in variables and methods in classes, Class variables being those reference by the class name rather the object name. 
+  Used mainly in variables and methods in classes, Class variables being those reference by the class name rather than the object name. 
   ### Final 
   Applicable to classes, methods and variables.
   They make variables constant
