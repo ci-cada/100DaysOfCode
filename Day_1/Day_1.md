@@ -20,7 +20,7 @@ Took a peek through some of the object oriented concepts and most used terms
  ### Object 
   This is a bundle of related variables and methods. They are often used to model real-world objects you find in every day life, i.e. Cars etc
  ### Encapsulation
-  This is packaging an object within the protective custody of its methods. This helps in Modulation meaning, the code can be easily passed around in teh system. Giving a pen to someone. Information hiding meaning, the object can have a public interface where other ovjects can communicate with. You don't need to understand the engine of a car to drive it.
+  This is packaging an object within the protective custody of its methods. This helps in Modulation meaning, the code can be easily passed around in the system. Giving a pen to someone. Information hiding meaning, the object can have a public interface where other objects can communicate with. You don't need to understand the engine of a car to drive it.
  ### Inheritance 
   Ability of a class get or acquire the characteristics or properties of another class. Inheritance helps in code reuse and defining the behavoiur using an abstract class
  ### Interface 
