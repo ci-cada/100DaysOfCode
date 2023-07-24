@@ -1,4 +1,4 @@
-# Day 2 of 100 Days of Code
+by# Day 2 of 100 Days of Code
 
 ## Java Programming 
 
@@ -70,8 +70,7 @@ These are these special keywords that control the availability of classes, metho
 
     ```Java
   private double num;
-  ```
-
+```
   ### Protected 
   Applicable to methods and variables. Makes the member only visible in the package defined and to subclasses of the class defined in any other package.
     ```Java
