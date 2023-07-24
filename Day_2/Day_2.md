@@ -70,9 +70,7 @@ These are these special keywords that control the availability of classes, metho
 
   ### Protected 
   Applicable to methods and variables. Makes the member only visible in the package defined and to subclasses of the class defined in any other package.
-    ```Java
-  protected String name;
-  ```
+  
   ### Public 
   It used to makes members accessible universally throughout the code
     ```Java
