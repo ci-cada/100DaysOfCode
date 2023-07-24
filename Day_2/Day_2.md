@@ -1,4 +1,4 @@
-# Day 2 of 100 Days of Code
+we# Day 2 of 100 Days of Code
 
 ## Java Programming 
 
@@ -83,7 +83,7 @@ These are these special keywords that control the availability of classes, metho
 
 BeautifulSoup a webscrapping tool. I did not learn much about it or more or less didn't practice much or its concepts but had it installed in my PC, Laptop for future use after am done with the lessons
 
-I was learning from a python activist and teacher/ youtuber Corey Schafer 
+I was learning from a python activist and teacher/ youtuber Corey Schafer. 
 His Tutorials have helped me well in my Python journey.
 
-Also on Python Programming I did a bunch of hackerRank challenges paging my way into being an Intemediate Python Programmer 
+Also on Python Programming I did a bunch of hackerRank challenges paging my way into being a great Python Programmer 
