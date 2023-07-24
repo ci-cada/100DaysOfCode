@@ -73,9 +73,7 @@ These are these special keywords that control the availability of classes, metho
   
   ### Public 
   It used to makes members accessible universally throughout the code
-    ```Java
-  Public class HelloMe;
-  ```
+   
   ### Abstract 
   This is applicable to classes and methods and they must be extended but not instantiated, being an object can not be created from it. They have  implementatuon in the subclass of the class defined or the defined subclass must be declared abstract 
   #### Tasks 
