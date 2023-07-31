@@ -4,12 +4,11 @@
 ## Description
 
 This is a repo of my 100 Days of code daily challenges, lectures and projects.
+I started this challenge as a way to increase my consistence in Coding and increase my understanding of certain concepts in Java. 
 
-I started this challenge as a way to increase my consistence in Coding and increase my understanding of certain concepts in Java.
+Not only will I learn Java but also do some other projects in these coming forwad days.
 
-Not only will I learn Java but also do some other languages.
-
-Looking forwad to achieving my goal and dream of being a software engineer.
+Looking forwad to achieving my goal and dream of being a software engineering.
 
 ## Topics 
 
@@ -39,4 +38,8 @@ Looking forwad to achieving my goal and dream of being a software engineer.
 * [Day 24](./Day_24)
 * [Day 25](./Day_25)
 * [Day 26](./Day_26)
+* [Day 27](./Day_27)
+* [Day 28](./Day_28)
+* [Day 29](./Day_29)
+* [Day 30](./Day_30)
 
