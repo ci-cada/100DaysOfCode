@@ -2,6 +2,7 @@
 
 So I decided to do JavaScript tests as my Day 31 after learning a few concepts.
 
+
 #### 🤡🤡Exercise: Level 1
 
 - Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
