@@ -1,4 +1,4 @@
-# Day 33.
+# 😷Day 33.
 
  Was not feeling well so decided to do some C, Java and Reminded myself of the C++ language after taking a programming break  in Codecademmy on C++ did not do a new concept since I knew I could not get anything from the learning.
 
@@ -35,9 +35,9 @@ The expexted output of the code is as follows when the user enters a specific nu
 This python code utilizes classes, and inheritance to remind me of how they work. The code will be about animals and the first animal will be a mammal with which the other animals will inherit a couple of methods from the Mammal class. The code is expect to encapsulate the mammal class metthods and implement them in the other classes.
 The expected output;
 ```sh
-A dog can't cook
-A cat can bite
-He can cook
+A Dog can't cook
+A Cat can bite
+"Name" can really cook
 ```
  - [Python Code](./snake.py)
 
@@ -49,4 +49,4 @@ Well tomorrow due to the off weekend streak I will try to learn a few of some Ja
 Might boost my skills more again on Java using some code challenges and hope that I will be able to do some of the previous learnt concepts.
 
 
-## DONE
+## 😎 DONE

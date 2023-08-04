@@ -21,14 +21,21 @@ class dog(mammals):
 
     def show(self):
         print(f"{self.name} is a {self.domain}")
-
+    def impos(self):
+        print(f"A {self.domain} can't {self.action}")
 
 class cat(dog):
-    def __init__(self, name, age, house, action, isA , sound):
-        super().__init__(name, age, house, action, isA):
-    pass
+    def __init__(self, name, age, house, action, isA , danger):
+        super().__init__(name, age, house, action, isA)
+        self.danger = danger
+        
+    def dang(self):
+        print(f"A {self.domain} can {self.danger}")
 
-mammalA = dog('Juma', 21, 'Bungalow' ,'Running', 'Dog')
+human = mammals("Kandie", 23, 'Mansion', 'cook')
+mammalA = dog('Luffy', 11, 'Bungalow' ,'cook', 'Dog')
+cats = cat('Pizza', 3, 'Bungalow' ,'cook', 'Cat', 'bite')
 
-mammalA.show()
-
+mammalA.impos()
+cats.dang()
+human.run()

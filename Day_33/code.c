@@ -1,81 +1,40 @@
 #include <stdio.h>
 
-/**
- * divisible - function declaration
- * @my_num: number to test
- * @divisor: the divisor
- * Return: 0 or 1
- */
-
-int divisible(int my_num, int divisor);
-
-/**
- * is_prime_number - function definition
- * @n: number to test
- * Return: 0 or 1
- */
-
-int is_prime_number(int n);
-
-/**
- * divisible - function definition
- * @my_num: the number to test
- * @divisor: the divisor to use
- * Description: checks the divisibility of a number
- * Return: 0 for divisible, 1 for not
- */
-
-int divisible(int my_num, int divisor)
-{
-	if (my_num % divisor == 0)
-	{
-		return (0);
-	}
-	else if (divisor == my_num / 2)
-	{
-		return (1);
-	}
-	else
-	{
-		return (divisible(my_num, divisor + 1));
-	}
+// Function to check if a number is prime using recursion
+int isPrime(int num, int divisor) {
+    // Base cases
+    if (num <= 1) {
+        return 0;  // Not prime
+    }
+    if (divisor == 1) {
+        return 1;  // Prime
+    }
+    
+    // Recursive case
+    if (num % divisor == 0) {
+        return 0;  // Not prime
+    } else {
+        return isPrime(num, divisor - 1);
+    }
 }
 
-/**
- * is_prime_number - function definition
- * @n: the number to be tested
- * Description: find a prime number
- * Return: 0 for not prime, 1 for prime
- */
-
-int is_prime_number(int n)
-{
-	int divisor = 2;
-
-	if (n <= 1)
-	{
-		return (0);
-	}
-	else if (n >= 2 && n <= 3)
-	{
-		return (1);
-	}
-	else
-	{
-		return (divisible(n, divisor));
-	}
+// Wrapper function to call isPrime with a single argument
+int checkPrime(int num) {
+    return isPrime(num, num / 2);
 }
 
-int main(void){
+int main() {
+    int num;
 
-	int number, count = 0;
-	puts("The code will print 1 if the number is prime\nAnd 0 when the number is not prime");
-	while(count != 10){
-	printf("Enter your number: ");
-	scanf("%d", &number);
+    printf("Enter a positive integer: ");
+    scanf("%d", &num);
 
-	int output = is_prime_number(number);
-	printf("%d\n", output);
-	count++;
-	}
+    if (checkPrime(num)) {
+        printf("%d is a prime number.\n", num);
+    } else {
+        printf("%d is not a prime number.\n", num);
+    }
+
+    return 0;
 }
+
