@@ -47,5 +47,7 @@ Looking forwad to achieving my goal and dream of being a software engineering.
 * [Day 33](./Day_33)
 * [Day 34](./Day_34)
 * [Day 35](./Day_35)
+* [Day 36](./Day_36)
+* [Day 37](./Day_37)
 
 ## 🥳🥳🥳😇😇
