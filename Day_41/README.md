@@ -91,7 +91,7 @@ The questions are;
     The number of evens are 51.
     ```
 
-1. Write a function which takes any number of arguments and return the sum of the arguments
+<!--1. Write a function which takes any number of arguments and return the sum of the arguments
 
     ```js
     sum(1, 2, 3) // -> 6
@@ -113,6 +113,7 @@ The questions are;
     console.log(userIdGenerator());
     41XTDbE
     ```
+-->
 
 ### 🤙🏾🤙🏾Exercises: Level 3
 
