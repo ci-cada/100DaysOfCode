@@ -1,6 +1,6 @@
 # 100 Days of Code 
 
-![100](./100.JPG)
+![100](./100.png)
 
 ## Description
 
